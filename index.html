@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <a class="logo"><span>Tharvin</span> prakash</a>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#aboutme" class="tab-link">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+        </nav>
+        <a href="https://drive.google.com/file/d/1qwhbPiMWagHz6H1SmQdPk57rXB5xaCTJ/view?usp=drive_link" class="resume">Check Resume</a>
+    </header>
+   
+    <section id="home" class="home">
+        <div class="home-content">
+            <h3>Hi</h3>
+            <h3>I'm <span style = "color: orangered ;">Tharvin prakash<br></span>a Java Developer</h3>
+            <p>I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning, I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.</p>
+            <div class="btn-box">
+                <a href="mailto:tharvinprakash23@gmail.com?subject=Hiring%20Inquiry" class="btn-1">Hire Me</a>
+                <a href="#aboutme" class="btn-2">Experience</a>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="Myimage.jpeg" alt="Tharvin Prakash">
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <h2>My Skills</h2>
+        <div class="skills">
+            <div class="skill">
+                <i class="fab fa-java"></i>
+                <p>Java</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-html5"></i>
+                <p>HTML</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-css3-alt"></i>
+                <p>CSS</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-git-alt"></i>
+                <p>Git</p>
+            </div>
+            <div class="skill">
+                <i class="fab fa-github"></i>
+                <p>GitHub</p>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <div class="p-container">
+            <h2>Projects</h2>
+            <h3 class="projects-1">Project-1 (Personal Portfolio Website)</h3> 
+            
+        </div>
+        <section id="projects" class="project-section">
+            <div class="project-container" onclick="window.location.href='project-link.html';">
+                <img src="project1.png" alt="Project Image" class="project-image">
+                <div class="project-details">
+                    <div class="skills1"><p>Skills Used : </p>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                    <p class="date">Date: Aug 2024</p>
+                    <p class="description">This project is a portfolio website created using HTML and CSS...</p>
+                    <a href="https://github.com/Tharvinprakash/Portfolio" class="view-code">View Code</a>
+                </div>
+            </div>
+        </section>
+
+
+        <div class ="p1-container">
+            <h3 class="projects-2">Project-2 (To-Do List)</h3> 
+        </div>
+        <section id="projects" class="project-section">
+            <div class="project-container" onclick="window.location.href='project-link.html';">
+                <img src="project.png" alt="Project Image" class="project-image">
+                <div class="project-details">
+                    <div class="skills1"><p>Skills Used :</p>
+                        <span>JAVA</span>
+                    </div>
+                    <p class="date">Date: Aug 2024</p>
+                    <p class="description">This project is a To-Do List created using JAVA.</p>
+                    <a href="https://github.com/Tharvinprakash/To-Do-List/blob/main/ToDoList.java" class="view-code">View Code</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section id="education" class="education-section">
+        <div class="e-container">
+            <h1 class="education-header">Education</h1>
+        </div>
+        <h2 class="education-title">
+            <i class="fas fa-university"></i> Madurai Diraviyam Thayumanavar Hindu College
+        </h2>
+        <div class="education-detail">
+            <h3>Bachelor's Degree in Computer Application</h3>
+            <p class="c">Completed 6 semesters with a CGPA of 7.6</p>
+        </div>
+        <div class="education-detail">
+            <h3><i class="fas fa-school"></i> Schaffter Higher Secondary School</h3>
+            <p>Class 12 - Maths with Computer Science</p>
+            <p class="percentage">62%</p>
+        </div>
+        <div class="education-detail">
+            <h3><i class="fas fa-school"></i> Schaffter Higher Secondary School</h3>
+            <p>Class 10</p>
+            <p class="percentage">80%</p>
+        </div>
+    </section>
+
+    <section id="aboutme" class="about">
+        <div class="about-img">
+            <img src="Myimage.jpeg" alt="Tharvin Prakash">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Java <span>Developer</span></h3>
+            <p>Motivated Java Developer skilled in <span>Java</span>, <span> HTML</span>, and <span>CSS</span> with strong problem-solving abilities. As a <span>Fresher</span>, I am eager to apply my technical knowledge and tackle challenges in a dynamic development environment.</p>
+            <a href="#" class="btn-2">Experience</a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-form">
+        <h2 class="contact-me">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea name="" id="" cols="10" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn-1">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="mailto: tharvinprakash23@gmail.com"><i class="fa fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/tharvin-prakash-47a69431a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Tharvinprakash"><i class="fab fa-github"></i></a>
+            <a href="tel:+919361859374"><i class="fa fa-phone"></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+        </ul>
+        <p class="copyright">© 2024 Tharvin prakash | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
