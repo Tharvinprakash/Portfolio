@@ -145,8 +145,8 @@ span{
     color: orangered;
 }
 .img-box img{
-    border-radius: 50%;
-    width: 425px;
+    border-radius: 10%;
+    width: 325px;
 }
 .skills-section {
     padding: 60px 0;
