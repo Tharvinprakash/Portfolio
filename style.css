@@ -228,6 +228,16 @@ span{
     display: inline-block;
 
 }
+.p2-container{
+    padding-top: 70px;
+    text-align: center;
+   
+}
+.p2-container h2{
+
+    display: inline-block;
+
+}
 .project-image {
     width: 100%; 
     height: auto;
