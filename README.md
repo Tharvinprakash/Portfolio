@@ -18,8 +18,7 @@ Welcome to my portfolio website! This project showcases my skills, projects, and
 
 ## 🚀 Technologies Used
 - **HTML**: Structuring the content of the site.
-- **CSS**: Styling the website for an attractive look.
-- **JavaScript**: Adding interactivity and dynamic behavior.
+- **CSS**: Styling the website for an attractive look and responsive.
 - **GitHub Pages**: Hosting the website for free.
 
 ---
