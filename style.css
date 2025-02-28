@@ -172,16 +172,29 @@ span{
     text-align: center;
     color: white;
 }
-.skill i {
+.skill i,.skill img {
+    width: 60px;  
+    height: 60px; 
+    object-fit: contain;
     font-size: 60px;
     color: orangered; 
     transition: color 0.3s ease, transform 0.3s ease;
 }
+.skill:hover img[alt="Spring Boot"] {
+    filter: brightness(0) saturate(100%) invert(33%) sepia(99%) saturate(749%) hue-rotate(176deg) brightness(90%) contrast(89%);
+    transform: scale(1.2);
+}
+
+.skill:hover img[alt="Postman"] {
+    filter: invert(24%) sepia(94%) saturate(2900%) hue-rotate(197deg) brightness(92%) contrast(85%);
+    transform: scale(1.2);
+}
+
 .skill p {
     margin-top: 10px;
     font-size: 18px;
 }
-.skill:hover i {
+.skill:hover i  {
     color: #0073b1; 
     transform: scale(1.2); 
 }
@@ -224,6 +237,16 @@ span{
    
 }
 .p1-container h2{
+
+    display: inline-block;
+
+}
+.p2-container{
+    padding-top: 70px;
+    text-align: center;
+   
+}
+.p2-container h2{
 
     display: inline-block;
 
